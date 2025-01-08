@@ -1,5 +1,7 @@
 # field
 
+A versatile utility for styling form fields, ensuring a clean layout with optional error handling and help text.
+
 - [Boilerplate](src/style.css)
 - [Sample Page](sample/sample.html)
 
