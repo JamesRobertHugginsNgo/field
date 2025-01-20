@@ -1,4 +1,5 @@
-/* BOILERPLATE */
+/* BOILERPLATE: https://github.com/JamesRobertHugginsNgo/make-form/blob/0b9e7f76817e76998d5d0615014919bc8da86d1b/src/field.css */
+/* BOILERPLATE: https://raw.githubusercontent.com/JamesRobertHugginsNgo/make-form/0b9e7f76817e76998d5d0615014919bc8da86d1b/src/field.css?token=GHSAT0AAAAAAC4FUXGRDQAPCFMTZLOQFY5OZ4OUHCQ */
 
 .field {
 	display: flex;
@@ -25,6 +26,10 @@
 
 	& .field-error-text {
 		display: none;
+
+		&.field-error-text-with-icon {
+			gap: 0.25rem;
+		}
 	}
 
 	&.field-error.show-field-error {
@@ -35,6 +40,10 @@
 		& .field-error-text {
 			color: darkred;
 			display: block;
+
+			&.field-error-text-with-icon {
+				display: flex;
+			}
 		}
 	}
 
