@@ -1,3 +1,5 @@
+/* BOILERPLATE */
+
 .field {
 	display: flex;
 	flex-direction: column;
@@ -10,7 +12,6 @@
 			font-weight: normal;
 		}
 
-		/* Optional - for legend element */
 		&:is(legend) {
 			margin-bottom: 0.25rem;
 			padding: 0;
@@ -37,7 +38,6 @@
 		}
 	}
 
-	/* Optional - for fieldset element */
 	&:is(fieldset) {
 		border: 0;
 		padding: 0;
